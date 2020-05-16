@@ -3,39 +3,50 @@
     <head>
         <meta charset="utf-8">
         <title>Tesla landing</title>
-        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
     </head>
     <body>
  	    <header class="header">
+ 	    	<img class="img__wordmark" src="images/Wordmark.png" >
  		    <nav class="header__nvg">
- 			    <h1 class="header__title">ТЕСЛА</h1>
  			    <a class="header__link" href="#">Model S</a>
  			    <a class="header__link" href="#">Model X</a>
  			    <a class="header__link" href="#">Model 3</a>
  			    <a class="header__link" href="#">Roadster</a>
  			    <a href="#" class="header__link">Energy</a>
  		    </nav>
-                <a class="header__link" href="#">Магазин</a>
- 			    <a class="header__link" href="#">Войти</a>
+ 		        <div class="header__right">
+                    <a class="header__link" href="#">Магазин</a>
+ 			        <a class="header__link" href="#">Войти</a>
+ 			        <button class="header__burger">
+ 			    	    <img class="burger" src="images/Vector.png">
+ 			        </button>
+ 			    </div>
  	    </header>
  	    <main  class="main">
- 		    <h2 class="main__title">Model S</h2>
+ 	    	<div class="main__wrapper">
+ 	    	    <h2 class="main__title">Model S</h2>
  		        <p class="main__slogan">Добро пожаловать в будущее!</p>
- 		        <p class="main__subject">TESLA</p>
- 		        <img class="main__pic" src="" >
-                    <footer class="main__footer">
-         	            <div class="main__wrap">
-         	    	        <img class="main__icon" src="">
-         	                <p class="main__desc">2,7сек</p>
-         	                <p class="main__desc">0-100 км/ч</p>
+ 		    </div>
+ 		       <footer class="main__footer">
+         	        <div class="main__wrap">
+         	    	    <img class="icon__speed" src="./images/Speed.png">
+         	    	        <div class="main__descr" >
+         	                    <p class="main__descr_big">2,7сек</p>
+         	                    <p class="main__desc_small">0-100 км/ч</p>
+         	                </div>    
+                    </div>
+                        <div class="main__wrap">
+                	        <img class="icon__road" src="./images/Road.png">
+                	            <div class="main__descr">
+            	                    <p class="main__descr_big">s632 км</p>
+            	                    <p class="main__descr_small">запас хода</p>
+            	                </div>
                         </div>
                         <div class="main__wrap">
-                	        <img class="main__icon" src="">
-            	            <p class="main__desc">632 км</p>
-            	            <p class="main__desc">запас хода</p>
-                        </div>
-                        <div class="main__wrap">
-                	        <img class="main__icon" src="">
+                	        <img class="icon__wheel" src="./images/wheel.png">
             	            <a class="main__link" href="#">ТЕСТ ДРАЙВ</a>
                         </div>
                         <div class="main__wrap">

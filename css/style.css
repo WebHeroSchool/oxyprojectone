@@ -1,0 +1,84 @@
+.body {
+	margin: 0;
+	position: relative;
+
+}
+
+.header {
+	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 42px;
+
+}
+
+.img__wordmark {
+	display: inline-flex;
+	align-items: center;
+	width: 166px;
+	height: 51px;
+}
+
+.header__nvg {
+	display: flex;
+	width: 489px;
+	height: 19px;
+	justify-content: space-between;
+	text-decoration: none;
+
+}
+
+.header__right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 203px;
+	height: 19px;
+
+}
+.header__link {
+ 	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	text-decoration: none;
+
+ }
+
+.burger {
+    display: inline-flex;
+    width: 24px;
+    height: 15px;
+    
+
+}
+
+.main__wrapper {
+	background-image: url(images/teslalogocar.png);
+}
+
+.main__title {
+	font-family: Montserrat-SemiBold;
+	font-size: 90px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	
+}
+.main__slogan {
+	font-family: Montserrat-Medium;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.img__tesla {
+	width: 100%;
+
+}
+.main__wrap{
+	margin: 20px,0;
+	display: flex; 
+
+}
