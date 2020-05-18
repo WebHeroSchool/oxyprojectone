@@ -49,12 +49,16 @@
     display: inline-flex;
     width: 24px;
     height: 15px;
-    
 
 }
 
 .main__wrapper {
-	background-image: url(images/teslalogocar.png);
+	background-image: url(../images/teslalogocar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 594px;
+	width: 100%;
+
 }
 
 .main__title {
@@ -68,17 +72,82 @@
 .main__slogan {
 	font-family: Montserrat-Medium;
 	font-size: 15px;
+
 	text-align: center;
 	margin-bottom: 10px;
 
 }
-
-.img__tesla {
-	width: 100%;
+.main__footer {
+	display: flex;
+	align-items: center;
 
 }
-.main__wrap{
-	margin: 20px,0;
-	display: flex; 
 
+.main__wrapfirst{
+	display: flex;
+	flex-direction: column;
+    width: 94px;
+    height: 58px;
+}
+.main__iconfirst{
+	
+}
+.main__descr_big {
+	font-family: Montserrat-SemiBold;
+	font-size: 20px; 
+}
+.big {
+	font-family: Montserrat-SemiBold; 
+	font-size: 35px;
+}
+.main__descr_small {
+	font-family: Montserrat-Regular;
+	font-size: 12px;
+}
+ .icon__speed {
+ 	width: 46px;
+ 	height: 34.13px;
+ }
+ .main__wrapsecond{
+ 	display: block;
+ 	width: 98.5px;
+ 	height: 58px;
+ }
+ .icon__road {
+ 	width: 26.4px;
+ 	height: 42.37px;
+ }
+ .main__wrapthird {
+ 	display: flex;
+ 	align-items: center;
+ 	width: 118px;
+ 	height: 22px;
+
+ }
+ .icon__wheel {
+ 	width: 22px;
+ 	height: 22px;
+ }
+.main__wrapfourth {
+	display: flex;
+	width: 160px;
+	height: : 40px;
+
+}
+.main__link {
+	font-family: Montserrat-Bold;
+	font-size: 13px;
+	color : #000;
+	text-decoration: none;
+	text-align: center;
+	padding: 
+}
+.main__order {
+	font-family: Montserrat-Bold;
+	font-size: 13px;
+	color : #000;
+    text-decoration: none;
+	text-align: center;
+	border: 2px solid #E51937;
+	padding: 10px 20px
 }
