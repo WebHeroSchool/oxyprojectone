@@ -1,16 +1,17 @@
-.body {
+body {
 	margin: 0;
 	position: relative;
-
 }
-
+p {
+	margin: 0;
+}
 .header {
 	font-family: Montserrat-SemiBold;
 	font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 19px 42px;
+    padding: 24px 42px;
 
 }
 
@@ -58,7 +59,7 @@
 	background-position: center;
 	height: 594px;
 	width: 100%;
-
+    margin-bottom: 48px;
 }
 
 .main__title {
@@ -70,28 +71,37 @@
 	
 }
 .main__slogan {
-	font-family: Montserrat-Medium;
+    font-family: Montserrat-Medium;
 	font-size: 15px;
 
 	text-align: center;
 	margin-bottom: 10px;
 
 }
+
 .main__footer {
+	border: 1px solid green;
 	display: flex;
-	align-items: center;
-
+	justify-content: center;
+	height: 44.97px;
 }
-
+.footer__first {
+	border: 1px solid red;
+	display: flex;
+}
+.icon__speed {
+	width: 46px;
+	height: 34.13px;
+}
 .main__wrapfirst{
+	border: 1px solid blue;
 	display: flex;
-	flex-direction: column;
-    width: 94px;
-    height: 58px;
+	flex-direction: column; 
+	justify-content: center;
+	width: 94px;
+	height: 45px;
 }
-.main__iconfirst{
-	
-}
+
 .main__descr_big {
 	font-family: Montserrat-SemiBold;
 	font-size: 20px; 
@@ -104,35 +114,35 @@
 	font-family: Montserrat-Regular;
 	font-size: 12px;
 }
- .icon__speed {
- 	width: 46px;
- 	height: 34.13px;
- }
- .main__wrapsecond{
- 	display: block;
- 	width: 98.5px;
- 	height: 58px;
+.footer__second {
+	border: 1px solid red;
+	display: flex;
+}
+.main__wrapsecond{
+ 	border: 1px solid blue;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center
+ 	
  }
  .icon__road {
  	width: 26.4px;
  	height: 42.37px;
  }
  .main__wrapthird {
+ 	border: 1px solid blue;
  	display: flex;
  	align-items: center;
- 	width: 118px;
- 	height: 22px;
-
- }
+}
  .icon__wheel {
  	width: 22px;
  	height: 22px;
- }
+}
 .main__wrapfourth {
 	display: flex;
+	align-items: center;
 	width: 160px;
-	height: : 40px;
-
+	height: 40px;
 }
 .main__link {
 	font-family: Montserrat-Bold;
@@ -140,14 +150,15 @@
 	color : #000;
 	text-decoration: none;
 	text-align: center;
-	padding: 
+	
 }
 .main__order {
 	font-family: Montserrat-Bold;
 	font-size: 13px;
 	color : #000;
     text-decoration: none;
-	text-align: center;
 	border: 2px solid #E51937;
-	padding: 10px 20px
+	text-align: center;
+	padding: 10px 20px;
 }
+    
