@@ -9,6 +9,10 @@ p {
 
 }
 
+h2 {
+	margin: 0;
+}
+
 .header {
 	font-family: Montserrat-SemiBold;
 	font-size: 15px;
@@ -69,44 +73,38 @@ button {
 .main__wrapper {
 	background-image: url(../images/teslalogocar.png);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position-y: 35px;
 	height: 594px;
 	width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 
 }
 
 .main__title {
 	font-family: Montserrat-SemiBold;
 	font-size: 90px;
-	margin-top: 33px;
-	margin-bottom: 0;
-	margin-left: 14px;
 	text-align: center;
-	
+	padding-top: 34px;
+    padding-left: 13px;
+    height: 100px;
+
 }
 
 .main__slogan {
     font-family: Montserrat-Medium;
 	font-size: 15px;
-
-	text-align: center;
-	margin-bottom: 10px;
+    text-align: center;
+	padding-left: 15px;
 
 }
 
 .main__footer {
-	border: 1px solid green;
 	display: flex;
-	justify-content: space-between;
-	width: 798px;
-	height: 58px;
-    margin-left: 322px;
-    margin-bottom: 25px;
+	justify-content: space-around;
+
 }
 
 .footer__first {
-	border: 1px solid red;
 	display: flex;
     align-items: center;
 }
@@ -118,7 +116,6 @@ button {
 }
 
 .main__wrapfirst{
-	border: 1px solid blue;
 	display: flex;
 	flex-direction: column; 
 	justify-content: center;
@@ -145,14 +142,12 @@ button {
 }
 
 .footer__second {
-	border: 1px solid red;
 	display: flex;
 	align-items: center;
 
 }
 
 .main__wrapsecond{
- 	border: 1px solid blue;
  	display: flex;
  	flex-direction: column;
  	justify-content: center
@@ -166,7 +161,6 @@ button {
  }
 
  .footer__third {
- 	border: 1px solid blue;
  	display: flex;
  	align-items: center;
  	
@@ -179,12 +173,7 @@ button {
 
 }
 
-.main__wrapfourth {
-	display: flex;
-	align-items: center;
-	
 
-}
 
 .main__link {
 	font-family: Montserrat-Bold;
@@ -195,14 +184,22 @@ button {
 	
 }
 
+.main__wrapfourth {
+	display: flex;
+	align-items: center;
+
+}
+
 .main__order {
 	font-family: Montserrat-Bold;
 	font-size: 13px;
 	color : #000;
     text-decoration: none;
 	border: 2px solid #E51937;
-	text-align: center;
-	padding: 10px 20px;
+	
+	
+	width: 160px;
+	height: 40px;
    
 }
 
