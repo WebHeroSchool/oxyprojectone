@@ -76,7 +76,7 @@ button {
 	background-position-y: 35px;
 	height: 594px;
 	width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 63px;
 
 }
 
@@ -100,7 +100,8 @@ button {
 
 .main__footer {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 0px 303px 30px 321px;
 
 }
 
@@ -110,8 +111,8 @@ button {
 }
 
 .icon__speed {
-	width: 46px;
-    height: 34.13px;
+	width: 53px;
+    height: 42px;
 
 }
 
@@ -155,8 +156,8 @@ button {
  }
 
  .icon__road {
- 	width: 26.4px;
- 	height: 42.37px;
+ 	width: 42px;
+ 	height: 59px;
 
  }
 
@@ -196,15 +197,15 @@ button {
 	color : #000;
     text-decoration: none;
 	border: 2px solid #E51937;
-	
-	
 	width: 160px;
 	height: 40px;
-   
+    
 }
 
 .end {
 	display: flex;
 	justify-content: center;
-
+    padding-left: 15px;
+    
 }
+
