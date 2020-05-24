@@ -19,7 +19,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 42px;
+    padding: 24px 33px 24px 43px;
 
 }
 
@@ -33,29 +33,72 @@ h2 {
 
 .header__nvg {
 	display: flex;
-	width: 489px;
-	height: 19px;
-	justify-content: space-between;
+	justify-content: center;
 	text-decoration: none;
-	padding-left: 34.5px;
+	padding-left: 77px;
+	
+}
+
+.header__link_ms {
+ 	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	text-decoration: none;
+	margin-right: 63px;
 
 }
 
-.header__right {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 203px;
-	height: 19px;
+.header__link_mx {
+ 	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+.header__link_mthree {
+ 	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	text-decoration: none;
+	margin-right: 44px;
 
 }
 
-.header__link {
+.header__link_mr {
+ 	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	text-decoration: none;
+	margin-right: 48px;
+
+}
+
+.header__link_me {
  	font-family: Montserrat-SemiBold;
 	font-size: 15px;
 	text-decoration: none;
 
- }
+}
+
+
+.header__right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 38px;
+}
+
+.header__link_mag {
+	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	text-decoration: none;
+	margin-right: 30px;
+}
+  
+.header__link_in {
+	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
 button {
 	outline: none;
 	background: none;
@@ -206,6 +249,6 @@ button {
 	display: flex;
 	justify-content: center;
     padding-left: 15px;
-    
+
 }
 
