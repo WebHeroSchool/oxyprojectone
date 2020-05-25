@@ -14,9 +14,7 @@ h2 {
 }
 
 .header {
-	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-    display: flex;
+	display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 33px 24px 43px;
@@ -31,52 +29,39 @@ h2 {
 
 }
 
-.header__nvg {
+.header__nvg{
 	display: flex;
 	justify-content: center;
-	text-decoration: none;
 	padding-left: 77px;
 	
 }
+.header__link {
+	font-family: Montserrat-SemiBold;
+	font-size: 15px;
+	color: black;
+    text-decoration: none;
+}
 
 .header__link_ms {
- 	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	text-decoration: none;
-	margin-right: 63px;
+ 	margin-right: 63px;
 
 }
 
+
 .header__link_mx {
- 	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	text-decoration: none;
-	margin-right: 25px;
+ 	margin-right: 25px;
+
 }
 
 .header__link_mthree {
- 	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	text-decoration: none;
-	margin-right: 44px;
+ 	margin-right: 44px;
 
 }
 
 .header__link_mr {
- 	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	text-decoration: none;
-	margin-right: 48px;
+ 	margin-right: 48px;
 
 }
-
-.header__link_me {
- 	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	text-decoration: none;
-
-}
-
 
 .header__right {
 	display: flex;
@@ -86,17 +71,13 @@ h2 {
 }
 
 .header__link_mag {
-	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	text-decoration: none;
 	margin-right: 30px;
+
 }
   
 .header__link_in {
-	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	text-decoration: none;
 	margin-right: 30px;
+
 }
 
 button {
@@ -143,19 +124,21 @@ button {
 
 .main__footer {
 	display: flex;
-	justify-content: space-between;
-	padding: 0px 303px 30px 321px;
+	justify-content: center;
+	padding: 0 0 28px 12px;
 
 }
 
 .footer__first {
 	display: flex;
     align-items: center;
+    margin-right: 80px;
 }
 
 .icon__speed {
 	width: 53px;
     height: 42px;
+    padding-right: 7px;
 
 }
 
@@ -188,6 +171,7 @@ button {
 .footer__second {
 	display: flex;
 	align-items: center;
+	margin-right: 108px;
 
 }
 
@@ -207,6 +191,7 @@ button {
  .footer__third {
  	display: flex;
  	align-items: center;
+ 	margin-right: 41px;
  	
 
 }
