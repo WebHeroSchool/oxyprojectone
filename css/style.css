@@ -1,239 +1,239 @@
 body {
-	margin: 0;
-	position: relative;
+  margin: 0;
+  position: relative;
 
 }
 
 p {
-	margin: 0;
+  margin: 0;
 
 }
 
 h2 {
-	margin: 0;
+  margin: 0;
 }
 
 .header {
-	display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 33px 24px 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 33px 24px 43px;
 
 }
 
 .img__wordmark {
-	display: inline-flex;
-	align-items: center;
-	width: 166px;
-	height: 51px;
+  display: inline-flex;
+  align-items: center;
+  width: 166px;
+  height: 51px;
 
 }
 
 .header__nvg{
-	display: flex;
-	justify-content: center;
-	padding-left: 77px;
+  display: flex;
+  justify-content: center;
+  padding-left: 77px;
 	
 }
 .header__link {
-	font-family: Montserrat-SemiBold;
-	font-size: 15px;
-	color: black;
-    text-decoration: none;
+  font-family: Montserrat-SemiBold;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+
 }
 
 .header__link_ms {
- 	margin-right: 63px;
+  margin-right: 63px;
 
 }
 
 
 .header__link_mx {
- 	margin-right: 25px;
+  margin-right: 25px;
 
 }
 
 .header__link_mthree {
- 	margin-right: 44px;
+  margin-right: 44px;
 
 }
 
 .header__link_mr {
- 	margin-right: 48px;
+  margin-right: 48px;
 
 }
 
 .header__right {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-left: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 38px;
+
 }
 
 .header__link_mag {
-	margin-right: 30px;
+  margin-right: 30px;
 
 }
   
 .header__link_in {
-	margin-right: 30px;
+  margin-right: 30px;
 
 }
 
 button {
-	outline: none;
-	background: none;
-	border: none;
+  outline: none;
+  background: none;
+  border: none;
 
 }
 
 .burger {
-    display: inline-flex;
-    width: 24px;
-    height: 15px;
+  display: inline-flex;
+  width: 24px;
+  height: 15px;
 
 }
 
 .main__wrapper {
-	background-image: url(../images/teslalogocar.png);
-	background-repeat: no-repeat;
-	background-position-y: 35px;
-	height: 594px;
-	width: 100%;
-    margin-bottom: 63px;
+  background-image: url(../images/teslalogocar.png);
+  background-repeat: no-repeat;
+  background-position-y: 35px;
+  height: 594px;
+  width: 100%;
+  margin-bottom: 63px;
 
 }
 
 .main__title {
-	font-family: Montserrat-SemiBold;
-	font-size: 90px;
-	text-align: center;
-	padding-top: 34px;
-    padding-left: 13px;
-    height: 100px;
+  font-family: Montserrat-SemiBold;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 34px;
+  padding-left: 13px;
+  height: 100px;
 
 }
 
 .main__slogan {
-    font-family: Montserrat-Medium;
-	font-size: 15px;
-    text-align: center;
-	padding-left: 15px;
+  font-family: Montserrat-Medium;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 15px;
 
 }
 
 .main__footer {
-	display: flex;
-	justify-content: center;
-	padding: 0 0 28px 12px;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 28px 12px;
 
 }
 
 .footer__first {
-	display: flex;
-    align-items: center;
-    margin-right: 80px;
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+
 }
 
 .icon__speed {
-	width: 53px;
-    height: 42px;
-    padding-right: 7px;
+  width: 53px;
+  height: 42px;
+  padding-right: 7px;
 
 }
 
 .main__wrapfirst{
-	display: flex;
-	flex-direction: column; 
-	justify-content: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
 	
 }
 
 .main__descr_big {
-	font-family: Montserrat-SemiBold;
-	font-size: 20px; 
+  font-family: Montserrat-SemiBold;
+  font-size: 20px; 
 
 }
 
 .big {
-	font-family: Montserrat-SemiBold; 
-	font-size: 35px;
+  font-family: Montserrat-SemiBold; 
+  font-size: 35px;
 
 }
 
 .main__descr_small {
 	
-	font-family: Montserrat-Regular;
-	font-size: 12px;
+  font-family: Montserrat-Regular;
+  font-size: 12px;
 
 }
 
 .footer__second {
-	display: flex;
-	align-items: center;
-	margin-right: 108px;
+  display: flex;
+  align-items: center;
+  margin-right: 108px;
 
 }
 
 .main__wrapsecond{
- 	display: flex;
- 	flex-direction: column;
- 	justify-content: center
+  display: flex;
+  flex-direction: column;
+  justify-content: center
  	
  }
 
  .icon__road {
- 	width: 42px;
- 	height: 59px;
+  width: 42px;
+  height: 59px;
 
  }
 
  .footer__third {
- 	display: flex;
- 	align-items: center;
- 	margin-right: 41px;
+  display: flex;
+  align-items: center;
+  margin-right: 41px;
  	
-
 }
 
  .icon__wheel {
- 	width: 22px;
- 	height: 22px;
+  width: 22px;
+  height: 22px;
 
 }
 
-
-
 .main__link {
-	font-family: Montserrat-Bold;
-	font-size: 13px;
-	color : #000;
-	text-decoration: none;
-	text-align: center;
+  font-family: Montserrat-Bold;
+  font-size: 13px;
+  color : #000;
+  text-decoration: none;
+  text-align: center;
 	
 }
 
 .main__wrapfourth {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
 }
 
 .main__order {
-	font-family: Montserrat-Bold;
-	font-size: 13px;
-	color : #000;
-    text-decoration: none;
-	border: 2px solid #E51937;
-	width: 160px;
-	height: 40px;
+  font-family: Montserrat-Bold;
+  font-size: 13px;
+  color : #000;
+  text-decoration: none;
+  border: 2px solid #E51937;
+  width: 160px;
+  height: 40px;
     
 }
 
 .end {
-	display: flex;
-	justify-content: center;
-    padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
 
 }
 
