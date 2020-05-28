@@ -202,6 +202,10 @@ button {
 
  }
 
+ .icon__road_ipad {
+  display: none;
+ }
+
  .footer__third {
   display: flex;
   align-items: center;
@@ -211,12 +215,16 @@ button {
 
 .main__iconthird {
   padding-right: 9px;
-  
+
 }
 
  .icon__wheel {
   width: 22px;
   height: 22px;
+
+}
+.icon__wheel_ipad {
+  display: none;
 
 }
 
@@ -252,4 +260,161 @@ button {
   padding-left: 15px;
 
 }
+ 
 
+@media (max-width: 768px){
+
+.header__nvg {
+  display: none;
+
+}
+
+.header__link_mag{
+  display: none;
+
+}
+
+.header__link_in {
+  display: none;
+
+}
+
+.header {
+  padding: 24px 28px 24px 15px;
+
+}
+
+.burger {
+  width: 35px;
+  height: 22px;
+}
+
+.main__wrapper {
+  background-image: url(../images/teslalogocaripad.png);
+  background-position-y: 151px;
+  margin-bottom: 30px;
+
+}
+ 
+.main__title {
+  padding-top: 56px;
+  padding-left: 0px;
+  margin-bottom: 1px;
+
+}
+
+.main__slogan {
+  padding-left: 0px;
+
+}
+
+.main__footer {
+  display: grid;
+  grid-template-columns: 36% 64%;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 44px;
+  padding: 0 40px 0 138px;
+  margin-bottom: 93px;
+
+}
+.footer__first {
+  margin-right: 0;
+
+}
+
+.main__wrapfirst {
+  padding-bottom: 2px;
+
+}
+
+.footer__second {
+  margin-right: 0;
+  margin-left: 76px;
+
+}
+
+.main__wrapsecond {
+  padding-bottom: 6px;
+
+}
+.footer__third {
+  padding-left: 37px;
+  margin-right: 0;
+
+}
+
+.main__descr_big {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding-top: 1px;
+} 
+
+.big {
+  font-size: 50px;
+  padding-right: 11px;
+
+}
+
+.big__add {
+  padding-top: 6px;
+
+}
+.main__descr_small {
+  font-size: 12px;
+  padding-bottom: 2px;
+  padding-left: 1px;
+
+}
+
+.main__link {
+  font-size: 16px;
+  color: #E51937;
+
+}
+
+.main__order {
+  font-size: 16px;
+  color: #FFF;
+  background: #E51937;
+
+}
+.main__iconfirst {
+  padding-top: 16px;
+}
+
+.icon__speed {
+  width: 74px;
+  height: 59px;
+  padding-right: 13px;
+
+}
+
+.icon__road {
+  display: none;
+
+}
+
+.icon__road_ipad {
+  display: inline;
+  padding-right: 10px;
+  padding-top: 3px;
+
+}
+.icon__wheel {
+  display: none;
+
+}
+
+.icon__wheel_ipad {
+  display: inline;
+  padding-right: 0;
+
+}
+
+.main__iconthird {
+  padding-right: 15px;
+
+}
+
+}
