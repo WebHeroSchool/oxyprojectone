@@ -48,7 +48,6 @@ h2 {
 
 }
 
-
 .header__link_mx {
   margin-right: 25px;
 
@@ -103,6 +102,7 @@ button {
   height: 594px;
   width: 100%;
   margin-bottom: 56px;
+  background-size: contain;
 
 }
 
@@ -204,6 +204,7 @@ button {
 
  .icon__road_ipad {
   display: none;
+
  }
 
  .footer__third {
@@ -287,6 +288,7 @@ button {
 .burger {
   width: 35px;
   height: 22px;
+
 }
 
 .main__wrapper {
@@ -322,7 +324,7 @@ button {
 .footer__first {
   margin-right: 0;
   padding-bottom: 2px;
-  
+
 }
 
 .main__wrapfirst {
@@ -338,8 +340,10 @@ button {
 
 .main__wrapsecond {
   padding-bottom: 6px;
+  padding-left: 2px;
 
 }
+
 .footer__third {
   padding-left: 23px;
   margin-right: 0;
@@ -351,6 +355,7 @@ button {
   align-items: center;
   font-size: 20px;
   padding-top: 1px;
+
 } 
 
 .big {
@@ -363,6 +368,7 @@ button {
   padding-top: 6px;
 
 }
+
 .main__descr_small {
   font-size: 12px;
   padding-bottom: 2px;
@@ -392,6 +398,7 @@ button {
 
 .main__iconfirst {
   padding-top: 16px;
+
 }
 
 .icon__speed {
@@ -427,6 +434,7 @@ button {
   padding-right: 15px;
 
 }
+
 .end{
   padding-left: 0;
 
