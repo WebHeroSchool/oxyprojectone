@@ -95,6 +95,11 @@ button {
 
 }
 
+.main__wordmark {
+  display: none;
+  
+}
+
 .main__wrapper {
   background-image: url(../images/teslalogocar.png);
   background-repeat: no-repeat;
@@ -291,6 +296,11 @@ button {
 
 }
 
+.main__wordmark {
+  display: none;
+
+}
+
 .main__wrapper {
   background-image: url(../images/teslalogocaripad.png);
   background-position-y: 151px;
@@ -466,6 +476,7 @@ button {
 .main__title {
   font-size: 50px;
   padding-top: 0;
+  height: 58px;
 
 }
 
@@ -473,5 +484,121 @@ button {
   font-size: 10px;
 
 }
+
+.main__wordmark {
+  display: inline;
+  padding-top: 8px;
+
+}
+
+.main__wrapper {
+  background-image: url(../images/teslamobile.png);
+  background-position-y: 121px;
+  background-position-x: 9px;
+  background-size: 95%;
+  height: 45%;
+  margin-bottom: 10px;
+
+}
+
+.main__footer {
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 28px;
+    margin-bottom: 24px;
+
+}
+
+.footer__first {
+  margin-left: 22px;
+
+}
+
+.main__iconfirst {
+    padding-top: 0;
+
+}
+
+.icon__speed {
+  width: 43px;
+  height: 34px;
+  padding-right: 10px;
+
+}
+
+
+.main__descr_big {
+  font-size: 15px;
+
+}
+
+.big {
+ font-size: 27px;
+
+}
+
+.main__descr_small {
+  font-size: 10px;
+
+}
+
+.footer__second {
+    margin-right: 30px;
+
+}
+ 
+.main__iconsecond {
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 6px;
+
+}
+
+.icon__road_ipad {
+  width: 26px;
+  height: 41px ;
+  padding-right: 0;
+  padding-top: 0;
+
+}
+
+.footer__third {
+    padding-left: 0;
+
+}  
+
+.main__iconthird {
+    padding-right: 9px;
+
+}
+
+.icon__wheel_ipad {
+  width: 23px;
+  height: 23px;
+
+}
+
+.main__link {
+  font-size: 13px;
+
+}
+
+.main__wrapfourth {
+    padding-right: 43px;
+
+}
+
+.main__order {
+  font-size: 13px;
+  width: 160px;
+  height: 40px;
+
+}
+
+
+
+
+
+
+
 
 }
