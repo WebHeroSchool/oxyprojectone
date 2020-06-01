@@ -103,8 +103,9 @@ button {
 .main__wrapper {
   background-image: url(../images/teslalogocar.png);
   background-repeat: no-repeat;
-  background-position-y: 35px;
-  height: 594px;
+  background-position-x: 9px;
+  background-position-y: 37px;
+  height: 67%;
   width: 100%;
   margin-bottom: 56px;
   background-size: contain;
@@ -327,7 +328,7 @@ button {
 
 .main__footer {
   display: grid;
-  grid-template-columns: 270px 289px;
+  grid-template-columns: 36% 38%;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 39px;
   padding: 0 0px 0 0px;
@@ -453,6 +454,16 @@ button {
 .end{
   padding-left: 0;
   margin-bottom: 10px;
+
+}
+
+}
+
+@media (max-width: 650px){
+  .main__order {
+  font-size: 13px;
+  width: 160px;
+  height: 40px;
 
 }
 
@@ -598,19 +609,6 @@ button {
     padding-right: 43px;
 
 }
-
-.main__order {
-  font-size: 13px;
-  width: 160px;
-  height: 40px;
-
-}
-
-
-
-
-
-
 
 
 }
