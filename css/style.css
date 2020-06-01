@@ -266,9 +266,8 @@ button {
   padding-left: 15px;
 
 }
- 
 
-@media (max-width: 768px){
+@media (max-width: 1062px){
 
 .header__nvg {
   display: none;
@@ -284,6 +283,12 @@ button {
   display: none;
 
 }
+
+}
+
+@media (max-width: 768px){
+
+
 
 .header {
   padding: 24px 28px 24px 15px;
@@ -453,6 +458,36 @@ button {
 
 }
 
+@media (max-width: 550px){
+
+.main__descr_big {
+  font-size: 15px;
+
+}
+
+.big {
+ font-size: 27px;
+
+}
+
+.main__descr_small {
+  font-size: 10px;
+
+}
+
+.main__title {
+  font-size: 50px;
+  height: 58px;
+
+}
+
+.main__slogan{
+  font-size: 10px;
+
+}
+
+}
+
 @media (max-width: 375px){
 
 .header {
@@ -474,15 +509,8 @@ button {
 }
 
 .main__title {
-  font-size: 50px;
   padding-top: 0;
-  height: 58px;
-
-}
-
-.main__slogan{
-  font-size: 10px;
-
+  
 }
 
 .main__wordmark {
@@ -522,22 +550,6 @@ button {
   width: 43px;
   height: 34px;
   padding-right: 10px;
-
-}
-
-
-.main__descr_big {
-  font-size: 15px;
-
-}
-
-.big {
- font-size: 27px;
-
-}
-
-.main__descr_small {
-  font-size: 10px;
 
 }
 
