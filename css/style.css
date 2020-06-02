@@ -95,23 +95,6 @@ button {
 
 }
 
-.main__wordmark {
-  display: none;
-  
-}
-
-.main__wrapper {
-  background-image: url(../images/teslalogocar.png);
-  background-repeat: no-repeat;
-  background-position-x: 9px;
-  background-position-y: 37px;
-  height: 67%;
-  width: 100%;
-  margin-bottom: 56px;
-  background-size: contain;
-
-}
-
 .main__title {
   font-family: Montserrat-SemiBold;
   font-size: 90px;
@@ -127,6 +110,23 @@ button {
   font-size: 15px;
   text-align: center;
   padding-left: 15px;
+
+}
+
+.main__wrapper {
+  background-image: url(../images/wordmark1.png);
+  background-repeat: no-repeat;
+  background-position-x: 9px;
+  background-position-y: 37px;
+  margin-bottom: 20px;
+  background-size: contain;
+
+}
+
+.main__car {
+  display: flex;
+  margin: auto;
+  padding: 29px 58px 0 0;
 
 }
 
@@ -302,15 +302,18 @@ button {
 
 }
 
-.main__wordmark {
-  display: none;
+.main__car {
+  width: 92%;
+  margin: 0;
+  padding: 88px 0 0 30px;
 
 }
 
 .main__wrapper {
-  background-image: url(../images/teslalogocaripad.png);
+  background-image: url(../images/wordmarkipad.png);
+  background-position-x: 1px;
   background-position-y: 151px;
-  margin-bottom: 31px;
+  margin-bottom: 32px;
 
 }
  
@@ -330,7 +333,7 @@ button {
   display: grid;
   grid-template-columns: 36% 38%;
   grid-template-rows: 1fr 1fr;
-  grid-row-gap: 39px;
+  grid-row-gap: 40px;
   padding: 0 0px 0 0px;
   margin-bottom: 45px;
   justify-items: center;
@@ -343,11 +346,6 @@ button {
 
 }
 
-.main__wrapfirst {
-  padding-bottom: 2px;
-
-}
-
 .footer__second {
   margin-right: 0;
   margin-left: 0;
@@ -356,12 +354,12 @@ button {
 
 .main__wrapsecond {
   padding-bottom: 6px;
-  padding-left: 2px;
+  padding-right: 2px;
 
 }
 
 .footer__third {
-  padding-left: 23px;
+  padding-left: 26px;
   margin-right: 0;
 
 }
@@ -399,7 +397,7 @@ button {
 }
 
 .main__wrapfourth {
-  padding-right: 73px;
+  padding-right: 77px;
 
 }
 
@@ -524,31 +522,29 @@ button {
   
 }
 
-.main__wordmark {
-  display: inline;
-  padding-top: 8px;
-
-}
-
 .main__wrapper {
-  background-image: url(../images/teslamobile.png);
-  background-position-y: 121px;
-  background-position-x: 9px;
-  background-size: 95%;
-  height: 45%;
-  margin-bottom: 10px;
+  background-image: url(../images/wordmarkmobile.png);
+  background-position-x: 0;
+  background-position-y: 79px ;
+  margin-bottom: 23px;
 
 }
+
+.main__car {
+    width: 95%;
+    padding: 49px 0 0 9px;
+
+  }
 
 .main__footer {
     grid-template-columns: 50% 50%;
-    grid-row-gap: 28px;
-    margin-bottom: 24px;
+    grid-row-gap: 34px;
+    margin-bottom: 26px;
 
 }
 
 .footer__first {
-  margin-left: 22px;
+  margin-left: 25px;
 
 }
 
@@ -561,17 +557,18 @@ button {
   width: 43px;
   height: 34px;
   padding-right: 10px;
+  padding-top: 5px;
 
 }
 
 .footer__second {
-    margin-right: 30px;
+    margin-right: 24px;
 
 }
  
 .main__iconsecond {
     padding-top: 0;
-    padding-right: 10px;
+    padding-right: 9px;
     padding-bottom: 6px;
 
 }
@@ -579,8 +576,19 @@ button {
 .icon__road_ipad {
   width: 26px;
   height: 41px ;
-  padding-right: 0;
-  padding-top: 0;
+  padding-right: 2px;
+  padding-top: 4px;
+
+}
+
+.main__wrapsecond {
+    padding-bottom: 0px;
+
+}
+
+.big__add {
+    padding-top: 10px;
+    padding-right: 3px;
 
 }
 
@@ -590,7 +598,7 @@ button {
 }  
 
 .main__iconthird {
-    padding-right: 9px;
+    padding-right: 8px;
 
 }
 
@@ -606,9 +614,8 @@ button {
 }
 
 .main__wrapfourth {
-    padding-right: 43px;
+    padding-right: 44px;
 
 }
-
 
 }
