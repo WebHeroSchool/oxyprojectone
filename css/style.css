@@ -9,7 +9,7 @@ p {
 
 }
 
-h2 {
+h2,h3,h4 {
   margin: 0;
 }
 
@@ -127,7 +127,7 @@ button {
   display: flex;
   margin: auto;
   padding: 29px 58px 0 0;
-
+  width: 68%;
 }
 
 .main__footer {
@@ -265,6 +265,7 @@ button {
   display: flex;
   justify-content: center;
   padding-left: 15px;
+  margin-bottom: 0;
 
 }
 
@@ -619,3 +620,52 @@ button {
 }
 
 }
+
+/* section 2 */
+
+ /*.section {
+  display: flex;
+
+}
+
+.section__left {
+  background-image: url(../images/teslacockpit.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-y: 88px;
+  width: 100%;
+  height: 929px;
+
+}
+
+.section__title {
+  font-family: Montserrat-SemiBold; 
+  font-size: 70px;
+  color: #E51937;
+  padding-left: 79px;
+  padding-top: 96px;
+
+}
+
+.section__wrap {
+  background-color: #E51937;
+  margin-top: 29px;
+  width: 422px;
+
+}
+
+.section__subtitle {
+  font-family: Montserrat-SemiBold; 
+  font-size: 30px;
+  color: #FFF;
+
+} 
+
+.section__description {
+  font-family: Montserrat-Regular; 
+  font-size: 15px;
+  color: #FFF;
+
+}
+
+
