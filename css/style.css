@@ -623,7 +623,7 @@ button {
 
 /* section 2 */
 
- /*.section {
+.section {
   display: flex;
 
 }
@@ -647,10 +647,18 @@ button {
 
 }
 
-.section__wrap {
+.section__right {
   background-color: #E51937;
   margin-top: 29px;
-  width: 422px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+ 
+.section__wrapper {
+  padding: 11px 52px 0px 52px;
 
 }
 
@@ -658,6 +666,7 @@ button {
   font-family: Montserrat-SemiBold; 
   font-size: 30px;
   color: #FFF;
+  margin-bottom: 11px;
 
 } 
 
@@ -667,5 +676,59 @@ button {
   color: #FFF;
 
 }
+ 
+.section__benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section__big {
+  font-family: Montserrat-SemiBold;
+  font-size: 35px;
+  color: #FFF;
 
 
+}
+
+.section__desc {
+  font-family: Montserrat-SemiBold;
+  font-size: 20px;
+  color: #FFF;
+
+
+}
+
+.section__descsmall {
+  font-family: Montserrat-Regular;
+  font-size: 12px;
+  color: #FFF;
+
+
+}
+
+
+.section__footer {
+  display: flex;
+  justify-content: space-around;
+
+}
+.section__link {
+  font-family: Montserrat-Bold;
+  font-size: 13px;
+  color : #FFF;
+  text-decoration: none;
+  
+}
+
+.section__order{
+  font-family: Montserrat-Bold;
+  font-size: 13px;
+  color : #FFF;
+  text-decoration: none;
+  border: 2px solid #FFF;
+  width: 160px;
+  height: 40px;
+  
+}
