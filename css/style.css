@@ -774,8 +774,136 @@ button {
 .section__left {
   background-image: url(../images/teslacockpitipad.png);
   background-position-y: 47px;
+  text-align: right;
+  height: 548px;
+
+}
+
+.section__title {
+  padding-top: 60px;
+  margin-right: 47px;
+
+}
+ 
+.section__right {
+  margin-top: 0;
+  width: 100%;
+  height: 494px;
+  flex-direction: initial;
+  padding: 57px 63px 57px 35px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.section__wrapper {
+  width: 50%;
+  margin: 0;
+  
+}
+
+.section__subtitle {
+  margin-bottom: 25px;
+
+}
+
+.section__benefits {
+  margin-left: 0;
+  width: 38%;
+
+}
+
+.section__benefit {
+  margin-bottom: 18px;
+
+}
+
+.section__icon {
+  margin-right: 25px;
+
+}
+
+.section__footer {
+  margin-left: 33px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+
+}
+.section__exclam {
+  padding-right: 20px;
+
+}
+
+.section__footer_icon {
+  width: 139%;
+
+}
+
+.section__footer_link {
+  padding-right: 30px;
+
+}
+
+.section__link {
+  font-size: 16px;
+  padding-right: 15px;
+
+}
+
+.section__order {
+  font-size: 16px;
+  width: 220px;
+  height: 55px;
+
+}
+
+}
+
+@media (max-width: 550px){
+
+.section__benefits {
+  display: none;
+
+}
+
+.section__footer {
+  display: none;
+
+}
+
+.section__wrapper {
+    width: 100%;
+
+}
+
+}
+
+@media (max-width: 370px) {
+
+.section__title {
+  display: none;
+
+}
+
+.section__left {
+  background-image: url(../images/teslacockpitmobile.png);
+  background-position-y: -12px;
+  height: 314px;
+
+}
+
+.section__right {
+  height: 302px;
+  padding: 15px 31px 31px 27px;
 
 }
 
 
- }
+
+.section__subtitle {
+  margin-bottom: 11px;
+
+}
+
+}
