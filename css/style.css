@@ -899,11 +899,28 @@ button {
 
 }
 
-
-
 .section__subtitle {
   margin-bottom: 11px;
 
 }
+
+}
+
+/* section 3 */
+
+.sidebar {
+  display: flex;
+  background-color: #E51937;
+  width: 440px;
+  height: 900px;
+
+
+}
+
+.aside__right {
+  
+  background-image: url(../images/models.png);
+  background-repeat: no-repeat;
+
 
 }
