@@ -11,6 +11,7 @@ p {
 
 h2,h3,h4 {
   margin: 0;
+
 }
 
 .header {
@@ -716,7 +717,6 @@ button {
   font-size: 20px;
   color: #FFF;
 
-
 }
 
 .section__descsmall {
@@ -724,9 +724,7 @@ button {
   font-size: 12px;
   color: #FFF;
 
-
 }
-
 
 .section__footer {
   display: flex;
@@ -908,19 +906,126 @@ button {
 
 /* section 3 */
 
+h6 {
+  margin: 0 0 11px 0;
+
+}
+
+.aside {
+  display: flex;
+
+}
+
 .sidebar {
   display: flex;
   background-color: #E51937;
   width: 440px;
   height: 900px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px 50px 50px 42px;
 
+}
+
+.sidebar__wrapfirst {
+  padding: 0 10px 0 16px;
+  
+}
+
+.sidebar__title {
+  font-family: Montserrat-SemiBold;
+  font-size: 30px;
+  color: #FFF; 
+
+}
+
+.sidebar__description {
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  color: #FFF; 
+
+}
+
+.sidebar__benefits {
+  padding: 0 38px 0 18px;
+
+}
+
+.sidebar__item {
+  font-family: Montserrat-Bold;
+  font-size: 17px;
+  color : #FFF;
+
+}
+
+.sidebar__item_small {
+  font-family: Montserrat-Bold;
+  font-size: 10px;
+  color : #FFF;
+
+}
+
+
+.sidebar__finding_title {
+  font-family: Montserrat-SemiBold;
+  font-size: 50px;
+  color: #FFF; 
+
+}
+
+.sidebar__finding_desc {
+  font-family: Montserrat-SemiBold;
+  font-size: 25px;
+  color: #FFF; 
+
+}
+
+.sidebar__box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+
+}
+
+.sidebar__icon {
+  margin-right: 20px;
+}
+
+.sidebar__finding {
+   display: flex;
+  align-items: center;
+
+}
+
+.sidebar__footer {
+  display: flex;
+
+}
+
+.sidebar__link {
+  font-family: Montserrat-Bold;
+  font-size: 13px;
+  color : #FFF;
+  text-decoration: none;
+  
+}
+
+.sidebar__order  {
+  font-family: Montserrat-Bold;
+  font-size: 13px;
+  color : #FFF;
+  text-decoration: none;
+  border: 2px solid #FFF;
+  width: 160px;
+  height: 40px;
+  
 
 }
 
 .aside__right {
-  
   background-image: url(../images/models.png);
   background-repeat: no-repeat;
-
+  background-position: right top;
+  width: 986px;
 
 }
