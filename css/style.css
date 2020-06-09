@@ -922,9 +922,10 @@ h6 {
   width: 440px;
   height: 900px;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 15px 53px 50px 39px;
-
+  justify-content: space-between;
+  padding: 55px 53px 54px 39px;
+  box-sizing: border-box;
+  
 }
 
 .sidebar__wrapfirst {
@@ -948,6 +949,12 @@ h6 {
 
 .sidebar__benefits {
   padding: 0 38px 0 18px;
+
+}
+
+.sidebar__wrapsecond {
+  margin-top: 32px;
+  margin-bottom: 32px;
 
 }
 
@@ -1042,5 +1049,14 @@ h6 {
   background-repeat: no-repeat;
   background-position: right top;
   width: 986px;
+  background-position-x: 107%;
+  background-position-y: 20%;
+
+}
+
+.aside__car {
+  position: relative;
+  right: 9%;
+  top: 19%;
 
 }
