@@ -1099,7 +1099,8 @@ h6 {
   display: inline;
   position: relative;
   top: 14%;
-  
+  width: 95%;
+
 }
 
 .sidebar {
@@ -1150,5 +1151,17 @@ h6 {
   height: 55px;
 
 }
+
+}
+
+@media (max-width: 375px) {
+
+.sidebar__benefits, .sidebar__finding,.sidebar__footer
+.sidebar__link,.sidebar__order {
+  display: none;
+
+}
+
+
 
 }
