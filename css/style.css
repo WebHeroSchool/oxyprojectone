@@ -1056,17 +1056,18 @@ h6 {
   background-repeat: no-repeat;
   background-position: right top;
   width: 69%;
-  background-position-x: 107%;
-  background-position-y: 20%;
+  background-position-x: 110%;
+  background-position-y: 19%;
   background-size: 81%;
+  position: relative;
 
 }
 
 .aside__car {
-  position: relative;
-  right: 10%;
-  top: 20%;
-  width: 107%
+  position: absolute;
+  right: 3%;
+  top: 19%;
+  width: 107%;
 
 }
 
@@ -1075,23 +1076,27 @@ h6 {
 
 }
 
-@media (max-width: 1300px) {
-
-.sidebar__wrapsecond {
-  margin: ;
-}
-
-.sidebar__finding {
+.aside__car_mobil {
   display: none;
 
 }
 
-}
-
 @media (max-width: 1300px) {
 
+.sidebar__wrapsecond {
+  margin: 0;
 }
- 
+
+.sidebar {
+  padding: 13px 20px 30px 13px;
+
+}
+
+.sidebar__icon {
+    margin-right: 0px;
+
+}
+
 @media (max-width: 768px) {
 
 .aside {
@@ -1114,9 +1119,14 @@ h6 {
 
 }
 
+.sidebar__finding {
+  display: none;
+
+}
+
 .aside__car_ipad {
   display: inline;
-  position: relative;
+  position: absolute;
   top: 14%;
   width: 95%;
 
@@ -1138,6 +1148,11 @@ h6 {
 
 .sidebar__benefits {
   width: 40%;
+
+}
+
+.sidebar__wrapsecond {
+  margin: 40px 0 11px 0;
 
 }
 
@@ -1168,19 +1183,43 @@ h6 {
 
 }
 
+@media (max-width: 750px) {
+.sidebar {
+  padding: 0;
 
-
-@media (max-width: 375px) {
-
-.sidebar__benefits,
-.sidebar__finding,
-.sidebar__footer,
-.sidebar__link,
-.sidebar__order {
+}
+}
+ 
+ @media (max-width: 550px) {
+.sidebar__footer {
   display: none;
 
 }
 
+.sidebar{
+  justify-content: center;
+}
+  
+.sidebar__wrapfirst {
+  padding: 0;
+
+}
+
+.sidebar__benefits {
+  padding: 0;
+}
+}
+
+@media (max-width: 500px) {
+
+.sidebar__benefits {
+  display: none;
+
+}
+
+.aside__car_ipad {
+  display: none;
+}
 .aside {
   flex-direction: column-reverse;
 
@@ -1188,15 +1227,29 @@ h6 {
 
 .aside__right {
   height: 79vw;
+  background-size: 107%;
+  background-position-x: 19%;
+  background-position-y: 21%;
+
+}
+
+.aside__car_mobil {
+  display: inline;
+  position: absolute;
+  top: 19%;
+  width: 96%;
 
 }
 
 .sidebar {
   padding: 0 0 0 0;
+
 }
 
 .sidebar__wrapfirst {
   width: 100%;
   padding: 15px 29px 0 31px;
+
 }
 
+}
