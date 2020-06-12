@@ -879,7 +879,7 @@ button {
 
 }
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
 
 .section__title {
   display: none;
@@ -1186,12 +1186,17 @@ h6 {
 
 }
 
+.aside__right {
+  height: 79vw;
+
+}
+
 .sidebar {
   padding: 0 0 0 0;
 }
 
 .sidebar__wrapfirst {
   width: 100%;
-
+  padding: 15px 29px 0 31px;
 }
 
