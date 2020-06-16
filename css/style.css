@@ -1310,14 +1310,31 @@ h6 {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px){
 
 .sidebar {
-  padding: 19px 21px 83px 30px;
+  padding: 17px 19px 55px 32px;
   
 }
 
-.sidebar__wrapfirst {
+.sidebar__wrapfirst{
   padding: 0;
+
+} 
+
+}
+
+@media (max-width: 365px) {
+
+.sectionsecond__left{
+  background-position-y: 0;
+
+}
+
+.sectionsecond__right {
+  height: auto;
+
+}
+
 
 }
