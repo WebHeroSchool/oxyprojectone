@@ -293,9 +293,21 @@ button {
 
 }
 
+@media (max-width: 880px){
+
+.sectionfirst__footer{
+  padding: 0px 25px 28px 25px;
+
+}
+
+.footer__second {
+  margin-right: 40px;
+
+}
+
+}
+
 @media (max-width: 768px){
-
-
 
 .header {
   padding: 24px 28px 24px 15px;
@@ -474,7 +486,7 @@ button {
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 590px){
 
 .sectionfirst__descr_big {
   font-size: 15px;
@@ -499,6 +511,47 @@ button {
 
 .sectionfirst__slogan{
   font-size: 10px;
+
+}
+
+.sectionfirst__wrapfourth {
+  padding-right: 0;
+
+}
+
+.icon__speed {
+  width: 43px;
+  height: 34px;
+  padding-right: 10px;
+  padding-top: 5px;
+
+}
+
+.icon__road_ipad {
+  width: 26px;
+  height: 41px ;
+  padding-right: 2px;
+  padding-top: 4px;
+
+}
+
+.footer__third {
+    padding-left: 0;
+
+}
+
+}
+
+@media (max-width: 450px){
+
+.icon__wheel_ipad {
+  width: 23px;
+  height: 23px;
+
+}
+
+.sectionfirst__link {
+  font-size: 13px;
 
 }
 
@@ -541,10 +594,10 @@ button {
     width: 95%;
     padding: 49px 0 0 9px;
 
-  }
+}
 
 .sectionfirst__footer {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 38% 50%;
     grid-row-gap: 34px;
     margin-bottom: 26px;
 
@@ -560,16 +613,8 @@ button {
 
 }
 
-.icon__speed {
-  width: 43px;
-  height: 34px;
-  padding-right: 10px;
-  padding-top: 5px;
-
-}
-
 .footer__second {
-    margin-right: 24px;
+   padding-left: 21px;
 
 }
  
@@ -577,14 +622,6 @@ button {
     padding-top: 0;
     padding-right: 9px;
     padding-bottom: 6px;
-
-}
-
-.icon__road_ipad {
-  width: 26px;
-  height: 41px ;
-  padding-right: 2px;
-  padding-top: 4px;
 
 }
 
@@ -609,19 +646,17 @@ button {
 
 }
 
-.icon__wheel_ipad {
-  width: 23px;
-  height: 23px;
-
 }
 
-.sectionfirst__link {
-  font-size: 13px;
+@media (max-width: 325px){
+
+.sectionfirst__iconthird {
+    padding-right: 0;
 
 }
 
 .sectionfirst__wrapfourth {
-    padding-right: 44px;
+    padding-right: 0;
 
 }
 
@@ -768,7 +803,22 @@ button {
 
  }
 
- @media (max-width: 768px) {
+ @media (max-width: 1115px){
+
+.sectionsecond__right {
+  padding-right: 20px;
+  padding-left: 20px;
+
+} 
+
+.sectionsecond__footer_link {
+  padding-right: 0;
+
+}
+
+}
+
+ @media (max-width: 850px) {
 
 .sectionsecond {
   flex-direction: column;
@@ -777,14 +827,14 @@ button {
 
 .sectionsecond__left {
   background-image: url(../images/teslacockpitipad.png);
-  background-position-y: 47px;
   text-align: right;
-  height: 548px;
+  height: 500px;
+  margin-top: 51px;
 
 }
 
 .sectionsecond__title {
-  padding-top: 60px;
+  padding-top: 7px;
   margin-right: 47px;
 
 }
@@ -793,6 +843,7 @@ button {
   margin-top: 0;
   width: 100%;
   height: 494px;
+  min-height: auto;
   flex-direction: initial;
   padding: 57px 63px 57px 35px;
   flex-wrap: wrap;
@@ -865,7 +916,7 @@ button {
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 590px){
 
 .sectionsecond__benefits {
   display: none;
@@ -877,6 +928,11 @@ button {
 
 }
 
+.sectionsecond__right {
+  padding: 85px 63px 57px 51px;
+
+}
+
 .sectionsecond__wrapper {
     width: 100%;
 
@@ -884,17 +940,18 @@ button {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 440px){
 
 .sectionsecond__title {
   display: none;
 
-}
+}  
 
 .sectionsecond__left {
   background-image: url(../images/teslacockpitmobile.png);
   background-position-y: -12px;
   height: 314px;
+  margin-top: 0;
 
 }
 
@@ -1087,7 +1144,7 @@ h6 {
 
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
 
 .sidebar__wrapsecond {
   margin: 0;
@@ -1098,12 +1155,17 @@ h6 {
 
 }
 
+.sidebar__benefits {
+  padding: 0;
+
+}
+
 .sidebar__icon {
     margin-right: 0px;
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
 
 .sectionthird {
   display: flex;
@@ -1189,23 +1251,12 @@ h6 {
 
 }
 
-@media (max-width: 750px) {
-.sidebar {
-  padding: 0;
-
-}
-}
- 
- @media (max-width: 550px) {
+ @media (max-width: 700px) {
 .sidebar__footer {
   display: none;
 
 }
 
-.sidebar{
-  justify-content: center;
-}
-  
 .sidebar__wrapfirst {
   padding: 0;
 
@@ -1218,7 +1269,7 @@ h6 {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 630px) {
 
 .sidebar__benefits {
   display: none;
@@ -1251,15 +1302,22 @@ h6 {
 
 }
 
-.sidebar {
-  padding: 0 0 0 0;
-
-}
-
 .sidebar__wrapfirst {
   width: 100%;
   padding: 15px 29px 0 31px;
 
 }
+
+}
+
+@media (max-width: 375px) {
+
+.sidebar {
+  padding: 19px 21px 83px 30px;
+  
+}
+
+.sidebar__wrapfirst {
+  padding: 0;
 
 }
