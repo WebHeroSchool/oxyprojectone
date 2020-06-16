@@ -45,6 +45,12 @@ h2,h3,h4 {
   text-decoration: none;
 
 }
+.header__link:hover,
+.sectionfirst__link:hover {
+  color: #E51937;
+  text-decoration:underline;
+
+}
 
 .header__link_ms {
   margin-right: 63px;
@@ -90,6 +96,7 @@ button {
   border: none;
 
 }
+
 
 .burger {
   display: inline-flex;
@@ -266,6 +273,12 @@ button {
     
 }
 
+.sectionfirst__order:hover {
+  background-color: #E51937;
+  color:#FFF;
+
+}
+
 .end {
   display: flex;
   justify-content: center;
@@ -414,6 +427,9 @@ button {
 
 }
 
+.sectionfirst__link:hover {
+  font-size: 18px;
+}
 .sectionfirst__wrapfourth {
   padding-right: 77px;
 
@@ -425,6 +441,13 @@ button {
   background: #E51937;
   width: 219px;
   height: 55px;
+
+}
+
+.sectionfirst__order:hover {
+  background: #FFF;
+  color: #E51937;
+  border: 2px solid #E51937;
 
 }
 
@@ -553,6 +576,11 @@ button {
 .sectionfirst__link {
   font-size: 13px;
 
+}
+
+.sectionfirst__link:hover {
+  font-size: 15px;
+  
 }
 
 }
@@ -787,6 +815,15 @@ button {
   
 }
 
+.sectionsecond__link:hover{
+
+}
+
+.sectionsecond__link:hover {
+  font-size: 15px;
+
+}
+
 .sectionsecond__order{
   font-family: Montserrat-Bold;
   font-size: 13px;
@@ -798,10 +835,17 @@ button {
   
 }
 
+.sectionsecond__order:hover {
+  background: #FFF;
+  color: #E51937;
+  border: 2px solid #E51937;
+
+}
+
  .sectionsecond__exclam{
   padding-top: 6px;
 
- }
+}
 
  @media (max-width: 1115px){
 
@@ -921,9 +965,6 @@ button {
   padding: 35px 30px 52px 27px;
 
 }
-}
-
-@media (max-width: 690px){
 
 .sectionsecond__benefits {
   display: none;
@@ -1109,6 +1150,11 @@ h6 {
   
 }
 
+.sidebar__link:hover {
+  font-size: 15px;
+
+}
+
 .sidebar__order  {
   font-family: Montserrat-Bold;
   font-size: 13px;
@@ -1118,6 +1164,13 @@ h6 {
   width: 160px;
   height: 40px;
   
+}
+
+.sidebar__order:hover {
+  background: #FFF;
+  color: #E51937;
+  border: 2px solid #E51937;
+
 }
 
 .sectionthird__right {
