@@ -1034,6 +1034,11 @@ button {
 
 @media (max-width: 440px){
 
+.end {
+  margin-bottom: 0;
+  
+}
+
 .sectionsecond__title {
   display: none;
 
@@ -1041,8 +1046,7 @@ button {
 
 .sectionsecond__left {
   background-image: url(../images/teslacockpitmobile.png);
-  background-position-y: -12px;
-  height: 314px;
+  height: 323px;
   margin-top: 0;
 
 }
@@ -1058,6 +1062,14 @@ button {
 
 }
 
+}
+
+@media (max-width: 372px) {
+
+.sectionsecond__right {
+    padding: 15px 15px 40px 15px;
+
+}
 }
 
 /* section 3 */
